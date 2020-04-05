@@ -1,0 +1,137 @@
+baseURL = "https://ratik.me"
+languageCode = "en-us"
+DefaultContentLanguage = "en"
+title = "Ratik Kapoor"
+theme = "meghna-hugo"
+summaryLength = 10
+
+[taxonomies]
+  author = "author"
+  category = "categories"
+  tag = "tags"
+
+# Menu
+[menu]
+    [[menu.nav]]
+    name = "About Me"
+    URL = "about"
+    weight = 2
+
+    [[menu.nav]]
+    name = "Skills"
+    URL = "services"
+    weight = 3
+
+    # [[menu.nav]]
+    # name = "Portfolio"
+    # URL = "portfolio"
+    # weight = 4
+
+    [[menu.nav]]
+    name = "Involvement"
+    URL = "testimonial"
+    weight = 5
+
+    # [[menu.nav]]
+    # name = "Pricing"
+    # URL = "pricing"
+    # weight = 6
+
+    [[menu.nav]]
+    name = "Portfolio"
+    URL = "blog"
+    weight = 7
+
+    [[menu.nav]]
+    name = "Contact"
+    URL = "contact-us"
+    weight = 8
+
+# Site params
+[params]
+home= "Home"
+logo = "images/rklogo.png"
+gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
+# Meta data
+description = "Personal Portfolio"
+author = "Ratik Kapoor"
+# Google Analitycs
+#googleAnalitycsID = "Your ID"
+custom_css = ["css/custom.css"]
+
+    # Banner Section
+    [params.banner]
+    enable = true
+    bgImage = "images/slider/hero-area.jpg"
+    icon = "tf-ion-play"
+    heading = "Ratik Kapoor"
+    content= "Electrical and Digital Engineering Student | Schulich School of Engineering"
+    btn = true
+    btnText="Let's Go"
+    btnURL="#about"
+
+    # # call to action
+    # [params.cta]
+    # enable = true
+    # title = "Great Design & Incredible Features"
+    # content = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis tenetur odio impedit incidunt? Omnis accusantium ea reiciendis, fugit commodi nostrum."
+    # btnURL = "#"
+    # btnText = "Start a project with us"
+
+    # counter
+    [params.counter]
+    enable = false
+    bgImage = "images/backgrounds/bg-1.jpg"
+        [[params.counter.counterItem]]
+        title = "Happy Clients"
+        icon = "tf-ion-android-happy"
+        count = "320"
+
+        [[params.counter.counterItem]]
+        title = "Projects completed"
+        icon = "tf-ion-archive"
+        count = "565"
+
+        [[params.counter.counterItem]]
+        title = "Positive feedback"
+        icon = "tf-ion-thumbsup"
+        count = "95"
+
+        [[params.counter.counterItem]]
+        title = "Cups of Coffee"
+        icon = "tf-ion-coffee"
+        count = "2500"
+
+    # footer
+    [params.footer]
+        copyright = ""
+        copyrightURL = "http://www.themefisher.com"
+
+        # # social Icons
+        # [[params.footer.socialIcon]]
+        # icon = "tf-ion-social-facebook"
+        # url = "#"
+
+        # [[params.footer.socialIcon]]
+        # icon = "tf-ion-social-twitter"
+        # url = "#"
+
+        # [[params.footer.socialIcon]]
+        # icon = "tf-ion-social-google-outline"
+        # url = "#"
+
+        # [[params.footer.socialIcon]]
+        # icon = "tf-ion-social-youtube"
+        # url = "#"
+
+        [[params.footer.socialIcon]]
+        icon = "tf-ion-social-linkedin"
+        url = "https://www.linkedin.com/in/ratik-kapoor/"
+
+        [[params.footer.socialIcon]]
+        icon = "tf-ion-social-github"
+        url = "https://github.com/Quaesar"
+
+        # [[params.footer.socialIcon]]
+        # icon = "tf-ion-social-pinterest-outline"
+        # url = "#"

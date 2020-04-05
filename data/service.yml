@@ -1,0 +1,36 @@
+enable : true
+heading : My
+headingSpan : Skills
+serviceItem :
+  - icon : tf-ion-social-html5
+    title : HTML & CSS3
+    #content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+
+  - icon : tf-ion-laptop
+    title : C/C++
+    #content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+
+  - icon : tf-ion-social-python
+    title : Python
+    #content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+
+  - icon : tf-ion-code
+    title : Bash Scripting
+    #content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+
+  - icon : tf-ion-usb
+    title : Embedded Systems
+    #content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+
+  - icon : tf-lifesaver
+    title : PCB Design
+    #content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+
+  - icon: tf-tools
+    title: Graphic Design
+
+  - icon: tf-target3
+    title: Sales
+
+  - icon: tf-ion-android-mail
+    title: Team Management

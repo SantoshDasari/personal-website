@@ -1,0 +1,15 @@
+enable : true
+heading : Who Am I?
+#headingSpan : I
+aboutItem :
+- icon : tf-tools
+  title : Creative
+  content : Solving real world problems with unique technological approaches.
+
+- icon : tf-ion-ios-analytics
+  title : Initiator
+  content : Taking direct action where I can make a postitive impact.
+
+- icon : tf-ion-ios-pie
+  title : Resouceful
+  content : Getting the most out of as little as possible.

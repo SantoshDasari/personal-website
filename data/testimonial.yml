@@ -1,0 +1,18 @@
+enable : true
+heading : My
+headingSpan : Involvement
+#bgImage : images/backgrounds/bg-2.jpg
+testimonialItem :
+  - name : Relectric Car Team
+    image : images/team/relectric.svg
+    date : August 2019 - Current
+    content : Founder and executive lead at the Schulich Relectric Car Team. I oversee the day-to-day activities of the team, coach the department leads on management styles, ane ensure our builds are on time and on budget. Additionally, I act as the liaison between the team, governing bodies, and sponors.
+  - name : Engineering Students' Society
+    image : images/team/ess.png
+    date : April 2019 - Current
+    content : Social Commissioner with the Engineering Students' Society (ESS). I am in charge of helping plan and run almost all ESS events. These include both professional development social gatherings. Moreover, I attend weekly council meetings to voice and discuss student concerns.
+
+  - name : U of C Solar Car
+    image : images/team/solar.png
+    date : September 2018 - September 2019
+    content : On the Solar Car Team, I was a member of the PCB sub-team. My responsibilities included helping design PCBs, solder components onto manufactured circuit boards, and installing and testing these boards in the car.

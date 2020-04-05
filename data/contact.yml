@@ -1,0 +1,20 @@
+enable : true
+heading : Let's
+headingSpan : Talk
+title : Contact Details
+content : I'd love to connect with you and perhaps see a couple projects of yours too!
+enable_maps : false
+# mapLatitude : 51.5223477
+# mapLongitude: -0.1622023
+contactDetails :
+  - icon : tf-map-pin
+    info : "Schulich School of Engineering, University of Calgary"
+
+  # - icon : tf-ion-ios-telephone-outline
+  #   info : "Phone: +1 403-970-7123"
+  #
+  # - icon : tf-ion-iphone
+  #   info : "Fax: +880-31-000-000"
+
+  - icon : tf-ion-ios-email-outline
+    info : "Email: hello@ratik.me"
