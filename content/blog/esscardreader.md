@@ -11,7 +11,7 @@ In order to better engage students at the Schulich School of Engineering, I crea
 
 The device is powered by a Raspberry Pi Zero W, which is running a custom Linux operating system and kernel that I designed. This was done using [Buildroot](https://buildroot.org "Buildroot"), a tool to create embedded Linux systems with very little overhead. My main issue with Raspbian (the default OS for Raspberry Pi's) was that each boot took almost two minutes. There was simply too much overhead for such a small project. Creating my own OS (with Linux kernel tweaks) allowed me to optimize this to a solid seven second boot, allowing me to start the device a whopping \~17x faster. This. however, presented it's own challenges as a build environment is not available on the target device. As such, I was forced to cross compile many of the libraries and dependencies that I used straight into the OS ([example](https://github.com/RatikKapoor/buildroot_python_adafruit_blinka "Example")). Below is an image of the linux kernel configuration screen from when I was developing this build:
 
-![](/images/buildroot.png "Linux Kernel Config for Raspberry Pi Zero W")
+![](images/buildroot.png "Linux Kernel Config for Raspberry Pi Zero W")
 
 On top of that, I have an RFID module, an LCD display, and buttons connected to the Raspberry Pi pins. I also designed the circuit board used in the project. This was done in started in CircuitMaker but I eventually finished the board in Altium:
 
