@@ -2,7 +2,6 @@
 author = "Ratik Kapoor"
 date = 2020-04-11T06:00:00Z
 description = ""
-draft = true
 image = "/images/slate21.jpg"
 title = "Android Custom OS Development"
 
@@ -10,8 +9,6 @@ title = "Android Custom OS Development"
 During my time as an Android developer, I created custom operating system upgrades for a handful of devices. My favourite example would be the HP Slate 21.
 
 Here are the device specs:
-
-test
 
 **Spec Sheet:**
 {{< center >}}
@@ -35,3 +32,11 @@ test
 
 {{< /table >}}
 {{< /center >}}
+
+This device is a 21” Android tablet which unfortunately stopped receiving updates from the manufacturer early in its lifecycle. To fix this problem, I ported a custom version of Android to bring support for the latest apps and features. This is something that the Slate community was very excited about as this device had so much potential. Currently, my software has amassed over 5000 downloads across my releases. You can find a link to the project [here](https://forum.xda-developers.com/android/general/rom-cyanogenmod-12-1-hp-slate-21-t3201416). Below are some images of the finished build:
+
+![](https://ratik.me/images/hpslatecmhome.png)
+
+![](https://ratik.me/images/hpslatecmapps.png)
+
+![](https://ratik.me/images/hpslatecmsettings.png)
