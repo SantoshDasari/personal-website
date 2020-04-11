@@ -4,7 +4,6 @@ date: 2020-03-29T05:00:00.000+00:00
 author: Ratik Kapoor
 image: images/cardReader.png
 description: The development of the ESS Card Reader
-draft: true
 
 ---
 In order to better engage students at the Schulich School of Engineering, I created a points system and the accompanying card reader, which allows students to collect points by coming to events.
@@ -15,10 +14,10 @@ The device is powered by a Raspberry Pi Zero W, which is running a custom Linux 
 
 On top of that, I have an RFID module, an LCD display, and buttons connected to the Raspberry Pi pins. I also designed the circuit board used in the project. This was done in started in CircuitMaker but I eventually finished the board in Altium:
 
-![](images/cardReaderCircuitDesign.png "Designing the PCB to house all components")
+![](https://ratik.me/images/cardReaderCircuitDesign.png "Designing the PCB to house all components")
 
 Afterwards, I got the PCBs produced from the design and soldered all the components.
 
 The main program was written in Python, and uses OAuth2 for securely connecting to G Suite APIs. This allows the data for each user to be stored in a protected Google Sheets file. An advantage to this system is being able to simply view and update records using Sheets and the card reader will automatically update everything. Since we have over 900 members, this allows for easier and more secure data processing. I also designed the RFID cards and got them manufactured. Here are some pictures of the project in development:
 
-![](images/cardReaderDebugging.png "Debugging main program")![](images/cardReaderBreadboard.png "Testing program with hardware on breadboard and custom designed card")
+![](https://ratik.me/images/cardReaderDebugging.png "Debugging main program")![](https://ratik.me/images/cardReaderBreadboard.png "Testing program with hardware on breadboard and custom designed card")
