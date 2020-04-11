@@ -11,7 +11,7 @@ During my time as an Android developer, I created custom operating system upgrad
 
 ![HP Slate 21](https://c2.staticflickr.com/8/7420/9121467331_7a4a862163_b.jpg "HP Slate 21")
 
-<div align="center">Here are the device specs:</div>
+<centered>Here are the device specs:</centered>
 
 **Spec Sheet:**
 
