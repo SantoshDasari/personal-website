@@ -59,6 +59,10 @@ author = "Ratik Kapoor"
 #googleAnalitycsID = "Your ID"
 custom_css = ["css/custom.css"]
 
+    # Contact stuff
+    [params.contact]
+    formAction = "https://formspree.io/xbjaawel"
+
     # Banner Section
     [params.banner]
     enable = true

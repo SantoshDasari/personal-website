@@ -29,7 +29,7 @@
 
             {{"<!-- Contact Form -->" | safeHTML}}
             <div class="col-lg-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
-                <form id="contact-form" class="form-meghna" method="post" action="sendmail.php" role="form">
+                <!-- <form id="contact-form" class="form-meghna" method="post" action="sendmail.php" role="form">
 
                     <input name="e-mail" type="text" id="e-mail" autocomplete="off">
                     <div class="form-group">
@@ -54,6 +54,21 @@
                     <div id="cf-submit">
                         <input type="submit" id="contact-submit" class="btn btn-transparent" value="Submit">
                     </div>
+                </form> -->
+                <form action="{{ .Site.Params.contact.formAction }}" method="POST" class="row">
+                  <div class="col-md-6">
+                    <input type="text" id="name" name="name" placeholder="Full Name" class="form-control px-2 mb-4 bg-dark border-dark text-light">
+                  </div>
+                  <div class="col-md-6">
+                    <input type="email" id="email" name="email" placeholder="Email Address" class="form-control px-2 mb-4 bg-dark border-dark text-light">
+                  </div>
+                  <div class="col-12">
+                    <textarea name="message" id="message" class="form-control px-2 mb-4 bg-dark border-dark text-light"
+                      placeholder="Type Message Here"></textarea>
+                  </div>
+                  <div class="col-lg-6 col-10 mx-auto">
+                    <button type="submit" class="btn btn-primary w-100 rounded">Submit</button>
+                  </div>
                 </form>
             </div>
         </div>
