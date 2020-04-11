@@ -79,33 +79,33 @@ custom_css = ["css/custom.css"]
     # btnText = "Start a project with us"
 
     # counter
-    [params.counter]
-    enable = false
-    bgImage = "images/backgrounds/bg-1.jpg"
-        [[params.counter.counterItem]]
-        title = "Happy Clients"
-        icon = "tf-ion-android-happy"
-        count = "320"
-
-        [[params.counter.counterItem]]
-        title = "Projects completed"
-        icon = "tf-ion-archive"
-        count = "565"
-
-        [[params.counter.counterItem]]
-        title = "Positive feedback"
-        icon = "tf-ion-thumbsup"
-        count = "95"
-
-        [[params.counter.counterItem]]
-        title = "Cups of Coffee"
-        icon = "tf-ion-coffee"
-        count = "2500"
+    # [params.counter]
+    # enable = false
+    # bgImage = "images/backgrounds/bg-1.jpg"
+    #     [[params.counter.counterItem]]
+    #     title = "Happy Clients"
+    #     icon = "tf-ion-android-happy"
+    #     count = "320"
+    #
+    #     [[params.counter.counterItem]]
+    #     title = "Projects completed"
+    #     icon = "tf-ion-archive"
+    #     count = "565"
+    #
+    #     [[params.counter.counterItem]]
+    #     title = "Positive feedback"
+    #     icon = "tf-ion-thumbsup"
+    #     count = "95"
+    #
+    #     [[params.counter.counterItem]]
+    #     title = "Cups of Coffee"
+    #     icon = "tf-ion-coffee"
+    #     count = "2500"
 
     # footer
     [params.footer]
-        copyright = ""
-        copyrightURL = "http://www.themefisher.com"
+        # copyright = ""
+        # copyrightURL = "http://www.themefisher.com"
 
         # # social Icons
         # [[params.footer.socialIcon]]
@@ -130,7 +130,7 @@ custom_css = ["css/custom.css"]
 
         [[params.footer.socialIcon]]
         icon = "tf-ion-social-github"
-        url = "https://github.com/Quaesar"
+        url = "https://github.com/RatikKapoor"
 
         # [[params.footer.socialIcon]]
         # icon = "tf-ion-social-pinterest-outline"
