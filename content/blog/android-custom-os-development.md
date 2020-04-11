@@ -3,15 +3,13 @@ author = "Ratik Kapoor"
 date = 2020-04-11T06:00:00Z
 description = ""
 draft = true
-image = ""
+image = "/images/slate21.jpg"
 title = "Android Custom OS Development"
 
 +++
 During my time as an Android developer, I created custom operating system upgrades for a handful of devices. My favourite example would be the HP Slate 21.
 
-![HP Slate 21](https://c2.staticflickr.com/8/7420/9121467331_7a4a862163_b.jpg "HP Slate 21")
-
-{{< center >}} Here are the device specs:{{< /center >}}
+Here are the device specs:
 
 test
 
