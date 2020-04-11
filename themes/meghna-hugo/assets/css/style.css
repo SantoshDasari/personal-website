@@ -10,6 +10,16 @@ Tags: one-page, single-page, portfolio, custom-colors, post-formats, responsive,
 @import url("https://fonts.googleapis.com/css?family=Anaheim|Quattrocento+Sans:400,700");
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:300,400,600");
 
+.btn-primary {
+  border-color: #46b06a;
+}
+
+.btn-primary:hover {
+  background-color: #50c878;
+  border-color: #46b06a;
+}
+
+
 html {
   background-color: #353b43;
   color: #737f8a;
