@@ -2,7 +2,7 @@
 author = "Ratik Kapoor"
 date = 2020-04-11T06:00:00Z
 description = ""
-draft = false
+draft = true
 image = ""
 title = "Android Custom OS Development"
 
@@ -13,9 +13,12 @@ During my time as an Android developer, I created custom operating system upgrad
 
 {{< center >}} Here are the device specs:{{< /center >}}
 
+test
+
 **Spec Sheet:**
 {{< center >}}
 {{< table >}}
+
 | Feature | Specification |
 | :--- | :--- |
 | CPU | Quad Core 1.8GHz |
@@ -31,5 +34,6 @@ During my time as an Android developer, I created custom operating system upgrad
 | Display | 1920 x 1080 pixels |
 | Front Camera | WEBCAM |
 | Release Date | Unknown |
+
 {{< /table >}}
 {{< /center >}}
