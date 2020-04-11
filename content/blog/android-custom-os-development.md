@@ -2,7 +2,7 @@
 author = "Ratik Kapoor"
 date = 2020-04-11T06:00:00Z
 description = ""
-draft = true
+draft = false
 image = ""
 title = "Android Custom OS Development"
 
@@ -11,10 +11,11 @@ During my time as an Android developer, I created custom operating system upgrad
 
 ![HP Slate 21](https://c2.staticflickr.com/8/7420/9121467331_7a4a862163_b.jpg "HP Slate 21")
 
-<centered>Here are the device specs:</centered>
+{{< center >}} Here are the device specs:{{< /center >}}
 
 **Spec Sheet:**
-
+{{< center >}}
+{{< table >}}
 | Feature | Specification |
 | :--- | :--- |
 | CPU | Quad Core 1.8GHz |
@@ -30,3 +31,5 @@ During my time as an Android developer, I created custom operating system upgrad
 | Display | 1920 x 1080 pixels |
 | Front Camera | WEBCAM |
 | Release Date | Unknown |
+{{< /table >}}
+{{< /center >}}
