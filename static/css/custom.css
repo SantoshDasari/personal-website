@@ -41,3 +41,7 @@ table, th, td {
   border-collapse: collapse;
   color: #92a2b0;
 }
+
+.post-single-content a {
+  font-size: 0.95em;
+}
