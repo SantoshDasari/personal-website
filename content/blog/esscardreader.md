@@ -20,4 +20,6 @@ Afterwards, I got the PCBs produced from the design and soldered all the compone
 
 The main program was written in Python, and uses OAuth2 for securely connecting to G Suite APIs. This allows the data for each user to be stored in a protected Google Sheets file. An advantage to this system is being able to simply view and update records using Sheets and the card reader will automatically update everything. Since we have over 900 members, this allows for easier and more secure data processing. I also designed the RFID cards and got them manufactured. Here are some pictures of the project in development:
 
-![](https://ratik.me/images/cardReaderDebugging.png "Debugging main program")![](https://ratik.me/images/cardReaderBreadboard.png "Testing program with hardware on breadboard and custom designed card")
+![](https://ratik.me/images/cardReaderDebugging.png "Debugging main program")
+
+![](https://ratik.me/images/cardReaderBreadboard.png "Testing program with hardware on breadboard and custom designed card")

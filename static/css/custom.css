@@ -6,3 +6,15 @@
   background-color: #50c878;
   border-color: #46b06a;
 }
+
+img {
+  max-width: 100%;
+}
+
+blockquote {
+  padding-left: 8px;
+}
+
+p {
+  color: #92a2b0;
+}
