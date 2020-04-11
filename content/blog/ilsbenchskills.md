@@ -1,12 +1,12 @@
 ---
-title: "Engineering Students' Society Card Reader"
-date: 2020-03-29T12:00:00+07:00
+title: Bench Skills
+date: 2020-04-10T02:39:16-06:00
 author: Ratik Kapoor
-image: images/blog/blog-post-3.jpg
-description : "The development of the ESS Card Reader"
----
+image: images/electronics.jpg
+description: A short summary of my electronics bench skills
 
-Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+---
+Through the Integrated Learning Stream classroom environment, I have been able to hone my bench skills. Below I have included a short summary of some key technical skills I have learned in and outside the class.
 
 Sed porttitor lectus nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Nulla porttitor accumsan tincidunt. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Quisque velit nisi, pretium ut lacinia in, elementum id enim.
 

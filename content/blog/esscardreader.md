@@ -1,9 +1,10 @@
 ---
-title: "Simple Image Post"
-date: 2018-09-12T12:52:36+06:00
-image: images/blog/blog-post-1.jpg
-author: Jamica Jock
-description : "This is meta description"
+title: "Engineering Students' Society Card Reader"
+date: 2020-03-29T12:00:00+07:00
+author: Ratik Kapoor
+image: images/blog/blog-post-3.jpg
+description : "The development of the ESS Card Reader"
+
 ---
 
 Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
