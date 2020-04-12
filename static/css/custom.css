@@ -4,6 +4,10 @@
   font-family: 'Ubuntu', sans-serif;
 }
 
+.btn {
+  border-radius: 10px !important;
+}
+
 .btn-primary {
   border-color: #46b06a;
 }
@@ -25,17 +29,6 @@ p {
   color: #92a2b0;
 }
 
-/* table {
- border-collapse: collapse;
- width: 100%;
- color: #92a2b0;
-}
-td {
- border-top: 1px solid #ccc;
- border-bottom: 1px solid #ccc;
- padding-top: : 0.6rem;
-} */
-
 table, th, td {
   border: 1px solid #92a2b0;
   border-collapse: collapse;
@@ -44,4 +37,8 @@ table, th, td {
 
 .post-single-content a {
   font-size: 0.95em;
+}
+
+footer a {
+  border-radius: 10px;
 }
