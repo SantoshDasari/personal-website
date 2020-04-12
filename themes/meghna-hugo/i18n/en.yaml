@@ -43,8 +43,10 @@
 - id: authorsOfPosts
   translation: Authors of posts
 - id: authorOfPostsOnBlog
-  translation: Author of posts on the blog
+  translation: Author -
 - id: authorsOfPostsOnBlog
-  translation: Authors of posts on the blog
+  translation: Author -
 - id: blogs
-  translation: Blogs
+  translation: Portfolio
+- id: portfolio
+  translation: Portfolio
