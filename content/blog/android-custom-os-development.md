@@ -8,8 +8,6 @@ title = "Android Custom OS Development"
 +++
 During my time as an Android developer, I created custom operating system upgrades for a handful of devices. My favourite example would be the HP Slate 21.
 
-Here are the device specs:
-
 **Spec Sheet:**
 {{< center >}}
 {{< table >}}
