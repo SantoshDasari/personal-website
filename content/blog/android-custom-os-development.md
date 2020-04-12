@@ -1,6 +1,6 @@
 +++
 author = "Ratik Kapoor"
-date = 2020-04-11T06:00:00Z
+date = 2020-01-01T07:00:00Z
 description = ""
 image = "/images/slate21.jpg"
 title = "Android Custom OS Development"
