@@ -1,7 +1,7 @@
 +++
 author = "Ratik Kapoor"
 date = 2020-04-20T06:00:00Z
-description = ""
+description = "The development of our plant monitoring device for our engineering professional skills course."
 image = "/images/plantpod.jpg"
 title = "PlantPod"
 
