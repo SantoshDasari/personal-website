@@ -33,34 +33,62 @@ Our group also created an accompanying worksheet which guides students to:
 
 Here is an excerpt from our worksheet:
 
-> **Noisy signal analysis**
+> Next, let’s define our input signal, _x_
 >
-> Let us use our newfound application knowledge to filter a noisy signal and recover the original signal in Matlab. We shall corrupt our signal from before and perform the same analysis.
+> x = sin(20* 2* pi()* t)+sin(30* 2* pi()* t)+sin(60* 2pi()* t);
 >
-> Let our old input signal, **_x_**, now become our original signal, **_os_**:
+> Let’s now plot a stem graph of x to see what our signal looks like
 >
->     os = sin(20*2*pi()*t)+sin(30*2*pi()*t)+sin(60*2*pi()*t);
+> stem(x)
 >
-> Now, we will corrupt our signal using **_randn_**:
+> ![](https://lh3.googleusercontent.com/CyFl_IQ3_NRsFu6F3_kE_963wA1TLAgMgZL5t0gAHFbun7c9xMbuMW1iW0p6YPPJAehui2lJ8aDxOny6x6_LuK1Kd3PcwRevhFTqPbQVR9TujgLdY7M0bN9q2tUaLghOCq2YL0pN =672x143)
 >
->     x = os + 2*randn(size(t));
+> The signal is a little crowded since we are using a lot of points. However, if you zoom in on a period you can see it has been reproduced fairly well. Let’s now use our Matlab script that will allow us to take the DFT of this signal.
 >
-> Using the code from before, we can see both methods produce the same results:
+>     Y = dft(x)
 >
-> ![](https://ratik.me/images/enel327graph1.png)
+> Next, let’s compute the two-sided spectrum on the transform, **_Y_**, and then compute the single-sided spectrum from it, similar to Worksheet 11.
 >
-> _(Hint: I would encourage you to graph both the DFT and FFT output using Matlab subplots, therefore, we are guaranteed to be working with the same input data)_
+>     P2 = abs(Y/L);
+>     P1 = P2(1:L/2+1);
+>     P1(2:end-1) = 2*P1(2:end-1);
 >
-> It can be seen that, due to the noise introduced, the amplitudes of the three sine components have now changed. Let us say that P1 (from above) obtained through DFT methods is DP1 and P1 using FFT methods is FP1.
+> Next, we will define our frequency domain and plot the amplitude spectrum of our signal.
 >
-> We can write a rudimentary filter in Matlab by utilizing boolean functions in Matlab. We know that we need to pick out the three major frequency components. In addition, through inspection of the graph, we can determine that the amplitude of all three of the desired components is above 0.75. Thus:
+>     f = Fs*(0:(L/2))/L;
+>     stem(f,P1) 
+>     title('Single-Sided Amplitude Spectrum of X(t)')
+>     xlabel('f (Hz)')
+>     ylabel('|P1(f)|')
 >
->     FP1 = FP1.(FP1 >= 0.75);
->     DP1 = DP1.(DP1 >= 0.75);
+> ![](https://lh3.googleusercontent.com/FJ1E-ScMBPz3_H_GXoGHNIOp4VELbPw__vUKDk9BEsbR1M3kLnR-xY-iqXbsgbAx32_PXO-guHNWWQXGosRRLD5PX9RNTSzzzCnus0N2rRtm--8lg6hytF3c0chPXRuYtYXApoep =672x209)
 >
-> Your new graph derived should look like this:
+> We can clearly see spikes in our spectrum at 20, 30, and 60Hz!
 >
-> ![](https://ratik.me/images/enel327graph2.png)
+> Now, let us change our program to use Matlab’s in-built FFT function and compare the results.
+>
+>     Y = fft(X);
+>     % Y = dft(X);
+>
+> ![](https://lh6.googleusercontent.com/juYQFx_bvElD039qnGMSwcJBohwSv2cz7UIWnRqVnc8U893SARO282z-8mYsC1_f2gnNTz4UdMgj_XTM-zwmD8VH0JVVnyCRJA1CJchHuvZIif62EOHFYEnmQ1CYCK1ZQaViOq2N =672x196)
+>
+> With the exception of slightly reduced noise, we have identical graphs that peak at 20, 30, and 60Hz! As a thought experiment, think about why there is reduced noise in this graph.
+>
+> Now, let’s time the two functions using the **_tic_** and **_toc_** stopwatch timer built into Matlab. This can be done by simply wrapping the transform section of our code as such:
+>
+>     tic;
+>     % Y = fft(X);
+>     Y = dft(X);
+>     toc;
+>
+> Let’s run our script using **_fft()_** and **_dft()_** separately and compare our time. You should get results similar to this:
+>
+>     >> FFT_WorksheetElapsed time is 0.000174 seconds.
+>     >> FFT_WorksheetElapsed time is 0.030244 seconds.
+>
+> Where the FFT function is considerably faster than the DFT function. Now try using these methods on a much larger signal and observe the time difference.
+>
+> Now, let us assume that you are rendering a scene on your computer at full HD resolution. You are processing 1920*1080=2,073,600 pixels, sixty times a second **and** performing a gaussian blur operation. From this it is clear how FFTs are greatly preferred over standard DFTs due to their speed and reduced complexity.
 
 **ENEL 300: Engineering Professional Skills**
 
