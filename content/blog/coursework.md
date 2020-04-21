@@ -35,13 +35,13 @@ Here is an excerpt from our worksheet:
 
 > **Applying DFT and FFT to a sum of sinusoids**
 >
-> Let’s define our input signal, _x_
+> Let’s define our input signal, **_x_**
 >
 >     x = sin(20*2*pi()*t)+sin(30*2*pi()*t)+sin(60*2*pi()*t);
 >
-> Let’s now plot a stem graph of x to see what our signal looks like
+> Let’s now plot a stem graph of **_x_** to see what our signal looks like
 >
-> stem(x)
+>     stem(x)
 >
 > ![](https://ratik.me/images/enel327graph1.png)
 >
