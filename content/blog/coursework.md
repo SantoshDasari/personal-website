@@ -49,6 +49,8 @@ Here is an excerpt from our worksheet:
 >     P1 = P2(1:L/2+1);
 >     P1(2:end-1) = 2*P1(2:end-1);
 
+    Testing
+
 **ENEL 300: Engineering Professional Skills**
 
 In this course, I learned how to effectively generate ideas and use research methodology to discuss technical topics. I also learned Agile project management methodology, and applying it to create an electronic device to be used by specific customers.
