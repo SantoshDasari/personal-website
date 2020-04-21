@@ -33,26 +33,31 @@ Our group also created an accompanying worksheet which guides students to:
 
 Here is an excerpt from our worksheet:
 
-> Let’s now plot a stem graph of x to see what our signal looks like
+> Let us use our newfound application knowledge from above to filter a noisy signal and recover the original signal in Matlab. We shall corrupt our signal from before and perform the same analysis.
 >
->     stem(x)
+> Let our old input signal, **_x_**, now become our original signal, **_os_**:
 >
-> ![](https://ratik.me/images/enel327graph.png)
+>     os = sin(202pi()t)+sin(302pi()t)+sin(602pi()*t);
 >
-> The signal is a little crowded since we are using a lot of points. However, if you zoom in on a period you can see it has been reproduced fairly well. Let’s now use our Matlab script that will allow us to take the DFT of this signal.
+> Now, we will corrupt our signal using **_randn_**:
 >
->     Y = dft(x)
+>     x = os + 2*randn(size(t));
 >
-> Next, let’s compute the two-sided spectrum on the transform, **_Y_**, and then compute the single-sided spectrum from it, similar to Worksheet 11.
+> Using the code from before, we can see both methods produce the same results:
 >
->     P2 = abs(Y/L);
->     P1 = P2(1:L/2+1);
->     P1(2:end-1) = 2*P1(2:end-1);
-
-    Testing 1>=2  => <>
-    P2 = abs(Y/L);
-    P1 = P2(1:L/2+1);
-    P1(2:end-1) = 2*P1(2:end-1);
+> ![](https://lh6.googleusercontent.com/zvPeXuNa_Kr09VExLXFYXNG9AGimoUpec4MugEhIRA2zK2YhQVWUFSlH3w6xY4sOaHZnUgZOamhGu0B8_WBf_V-JLs2cGPyml-LUq9mwu0BBfCHoLu3mcFP6caLcEMl4DFdYQPG4 =672x327)
+>
+> _(Hint: I would encourage you to graph both the DFT and FFT output using Matlab subplots, therefore, we are guaranteed to be working with the same input data)_
+>
+> It can be seen that, due to the noise introduced, the amplitudes of the three sine components have now changed. Let us say that P1 (from above) obtained through DFT methods is DP1 and P1 using FFT methods is FP1.
+>
+> We can write a rudimentary filter in Matlab by utilizing boolean functions in Matlab. We know that we need to pick out the three major frequency components. In addition, through inspection of the graph, we can determine that the amplitude of all three of the desired components is above 0.75. Thus:
+>
+>     FP1 = FP1.(FP1 >= 0.75);DP1 = DP1.(DP1 >= 0.75);
+>
+> Your new graph derived should look like this:
+>
+> ![](https://lh5.googleusercontent.com/OXLJybadQLgS8zGRrzDI5REzVYxhBEokx0CInyM6tnKN4tblI0b8GCwAIqjAlijB0ZP70XcPMkhPQ_rRI6N9Z-XAXPBLVf9zQvR-CgjFZsa1gUIX-7-SRJ8lSFn6HpXrN4HvBtWr =672x308)
 
 **ENEL 300: Engineering Professional Skills**
 
