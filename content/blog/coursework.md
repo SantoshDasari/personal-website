@@ -85,8 +85,10 @@ Here is an excerpt from our worksheet:
 >
 > Let’s run our script using **_fft()_** and **_dft()_** separately and compare our time. You should get results similar to this:
 >
->     >> FFT_WorksheetElapsed time is 0.000174 seconds.
->     >> FFT_WorksheetElapsed time is 0.030244 seconds.
+>     >> FFT_Worksheet
+>     	Elapsed time is 0.000174 seconds.
+>     >> FFT_Worksheet
+>     	Elapsed time is 0.030244 seconds.
 >
 > Where the FFT function is considerably faster than the DFT function. Now try using these methods on a much larger signal and observe the time difference.
 >
