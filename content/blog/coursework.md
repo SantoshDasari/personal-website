@@ -43,7 +43,7 @@ Here is an excerpt from our worksheet:
 >
 > stem(x)
 >
-> ![](https://lh3.googleusercontent.com/CyFl_IQ3_NRsFu6F3_kE_963wA1TLAgMgZL5t0gAHFbun7c9xMbuMW1iW0p6YPPJAehui2lJ8aDxOny6x6_LuK1Kd3PcwRevhFTqPbQVR9TujgLdY7M0bN9q2tUaLghOCq2YL0pN =672x143)
+> ![](https://ratik.me/images/enel327graph1.png)
 >
 > The signal is a little crowded since we are using a lot of points. However, if you zoom in on a period you can see it has been reproduced fairly well. Let’s now use our Matlab script that will allow us to take the DFT of this signal.
 >
@@ -63,7 +63,7 @@ Here is an excerpt from our worksheet:
 >     xlabel('f (Hz)')
 >     ylabel('|P1(f)|')
 >
-> ![](https://lh3.googleusercontent.com/FJ1E-ScMBPz3_H_GXoGHNIOp4VELbPw__vUKDk9BEsbR1M3kLnR-xY-iqXbsgbAx32_PXO-guHNWWQXGosRRLD5PX9RNTSzzzCnus0N2rRtm--8lg6hytF3c0chPXRuYtYXApoep =672x209)
+> ![](https://ratik.me/images/enel327graph2.png)
 >
 > We can clearly see spikes in our spectrum at 20, 30, and 60Hz!
 >
@@ -72,7 +72,7 @@ Here is an excerpt from our worksheet:
 >     Y = fft(X);
 >     % Y = dft(X);
 >
-> ![](https://lh6.googleusercontent.com/juYQFx_bvElD039qnGMSwcJBohwSv2cz7UIWnRqVnc8U893SARO282z-8mYsC1_f2gnNTz4UdMgj_XTM-zwmD8VH0JVVnyCRJA1CJchHuvZIif62EOHFYEnmQ1CYCK1ZQaViOq2N =672x196)
+> ![](https://ratik.me/images/enel327graph3.png)
 >
 > With the exception of slightly reduced noise, we have identical graphs that peak at 20, 30, and 60Hz! As a thought experiment, think about why there is reduced noise in this graph.
 >
