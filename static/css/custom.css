@@ -60,6 +60,7 @@ blockquote {
   background-color:#ccc;
   padding:5px;
   border-radius:5px;
+  border-style: hidden hidden hidden solid;
 }
 
 blockquote p {
