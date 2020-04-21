@@ -33,7 +33,9 @@ Our group also created an accompanying worksheet which guides students to:
 
 Here is an excerpt from our worksheet:
 
-> Let us use our newfound application knowledge from above to filter a noisy signal and recover the original signal in Matlab. We shall corrupt our signal from before and perform the same analysis.
+> **Noisy signal analysis**
+>
+> Let us use our newfound application knowledge to filter a noisy signal and recover the original signal in Matlab. We shall corrupt our signal from before and perform the same analysis.
 >
 > Let our old input signal, **_x_**, now become our original signal, **_os_**:
 >
