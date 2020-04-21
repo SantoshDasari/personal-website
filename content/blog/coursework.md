@@ -37,7 +37,7 @@ Here is an excerpt from our worksheet:
 >
 >     stem(x)
 >
-> ![](https://lh3.googleusercontent.com/CyFl_IQ3_NRsFu6F3_kE_963wA1TLAgMgZL5t0gAHFbun7c9xMbuMW1iW0p6YPPJAehui2lJ8aDxOny6x6_LuK1Kd3PcwRevhFTqPbQVR9TujgLdY7M0bN9q2tUaLghOCq2YL0pN =672x143)
+> ![](https://ratik.me/images/enel327graph.png)
 >
 > The signal is a little crowded since we are using a lot of points. However, if you zoom in on a period you can see it has been reproduced fairly well. Let’s now use our Matlab script that will allow us to take the DFT of this signal.
 >
