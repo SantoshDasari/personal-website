@@ -39,7 +39,7 @@ Here is an excerpt from our worksheet:
 >
 > Let our old input signal, **_x_**, now become our original signal, **_os_**:
 >
->     os = sin(202pi()t)+sin(302pi()t)+sin(602pi()*t);
+>     os = sin(20*2*pi()*t)+sin(30*2*pi()*t)+sin(60*2*pi()*t);
 >
 > Now, we will corrupt our signal using **_randn_**:
 >
@@ -55,7 +55,8 @@ Here is an excerpt from our worksheet:
 >
 > We can write a rudimentary filter in Matlab by utilizing boolean functions in Matlab. We know that we need to pick out the three major frequency components. In addition, through inspection of the graph, we can determine that the amplitude of all three of the desired components is above 0.75. Thus:
 >
->     FP1 = FP1.(FP1 >= 0.75);DP1 = DP1.(DP1 >= 0.75);
+>     FP1 = FP1.(FP1 >= 0.75);
+>     DP1 = DP1.(DP1 >= 0.75);
 >
 > Your new graph derived should look like this:
 >
