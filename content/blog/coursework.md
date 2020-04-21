@@ -35,7 +35,7 @@ Here is an excerpt from our worksheet:
 
 > Next, let’s define our input signal, _x_
 >
-> x = sin(20* 2* pi()* t)+sin(30* 2* pi()* t)+sin(60* 2pi()* t);
+>     x = sin(20*2*pi()*t)+sin(30*2*pi()*t)+sin(60*2*pi()*t);
 >
 > Let’s now plot a stem graph of x to see what our signal looks like
 >
