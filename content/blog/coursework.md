@@ -33,6 +33,8 @@ Our group also created an accompanying worksheet which guides students to:
 
 Here is an excerpt from our worksheet:
 
+> **Applying DFT and FFT to a sum of sinusoids**
+>
 > Next, let’s define our input signal, _x_
 >
 >     x = sin(20*2*pi()*t)+sin(30*2*pi()*t)+sin(60*2*pi()*t);
