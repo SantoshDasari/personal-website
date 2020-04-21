@@ -45,7 +45,7 @@ Here is an excerpt from our worksheet:
 >
 > Using the code from before, we can see both methods produce the same results:
 >
-> ![](https://lh6.googleusercontent.com/zvPeXuNa_Kr09VExLXFYXNG9AGimoUpec4MugEhIRA2zK2YhQVWUFSlH3w6xY4sOaHZnUgZOamhGu0B8_WBf_V-JLs2cGPyml-LUq9mwu0BBfCHoLu3mcFP6caLcEMl4DFdYQPG4 =672x327)
+> ![](https://ratik.me/images/enel327graph1.png)
 >
 > _(Hint: I would encourage you to graph both the DFT and FFT output using Matlab subplots, therefore, we are guaranteed to be working with the same input data)_
 >
@@ -57,7 +57,7 @@ Here is an excerpt from our worksheet:
 >
 > Your new graph derived should look like this:
 >
-> ![](https://lh5.googleusercontent.com/OXLJybadQLgS8zGRrzDI5REzVYxhBEokx0CInyM6tnKN4tblI0b8GCwAIqjAlijB0ZP70XcPMkhPQ_rRI6N9Z-XAXPBLVf9zQvR-CgjFZsa1gUIX-7-SRJ8lSFn6HpXrN4HvBtWr =672x308)
+> ![](https://ratik.me/images/enel327graph2.png)
 
 **ENEL 300: Engineering Professional Skills**
 
