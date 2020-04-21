@@ -14,7 +14,7 @@ One of my key takeaways from this course was how to use a PIC microcontroller. P
 
 ![](https://ratik.me/images/picmicrocontroller.jpg)
 
-{{< Center >}}PIC16F1778, our choice of microcontroller for labs{{</ Center >}}
+{{< center >}}PIC16F1778, our choice of microcontroller for labs{{</ center >}}
 
 **ENEL 327: Signals and Systems**
 
