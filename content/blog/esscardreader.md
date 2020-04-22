@@ -18,10 +18,16 @@ On top of that, I have an RFID module, an LCD display, and buttons connected to 
 
 ![](https://ratik.me/images/cardReaderCircuitDesign.jpg "Designing the PCB to house all components")
 
+{{< center >}}Designing the PCB to house all components{{< /center >}}
+
 Afterwards, I got the PCBs produced from the design and soldered all the components.
 
 The main program was written in Python, and uses OAuth2 for securely connecting to G Suite APIs. This allows the data for each user to be stored in a protected Google Sheets file. An advantage to this system is being able to simply view and update records using Sheets and the card reader will automatically update everything. Since we have over 900 members, this allows for easier and more secure data processing. I also designed the RFID cards and got them manufactured. Here are some pictures of the project in development:
 
 ![](https://ratik.me/images/cardReaderDebugging.jpg "Debugging main program")
 
+{{< center >}}Debugging main program after WPA-supplicant kernel panics{{< /center >}}
+
 ![](https://ratik.me/images/cardReaderBreadboard.jpg "Testing program with hardware on breadboard and custom designed card")
+
+{{< center >}Testing program with hardware on breadboard and custom designed card{{< /center >}
