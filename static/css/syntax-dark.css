@@ -1,0 +1,62 @@
+/* Background */ blockquote .chroma { color: #eee; background-color: #222 }
+/* Error */ blockquote .chroma .err { color: #960050; background-color: #1e0010 }
+/* LineTableTD */ blockquote .chroma .lntd { vertical-align: top; padding: 0; margin: 0; border: 0; }
+/* LineTable */ blockquote .chroma .lntable { border-spacing: 0; padding: 0; margin: 0; border: 0; width: auto; overflow: auto; display: block; }
+/* LineHighlight */ blockquote .chroma .hl { display: block; width: 100%;background-color: #ffffcc }
+/* LineNumbersTable */ blockquote .chroma .lnt { margin-right: 0.4em; padding: 0 0.4em 0 0.4em;color: #7f7f7f }
+/* LineNumbers */ blockquote .chroma .ln { margin-right: 0.4em; padding: 0 0.4em 0 0.4em;color: #7f7f7f }
+/* Keyword */ blockquote .chroma .k { color: #66d9ef }
+/* KeywordConstant */ blockquote .chroma .kc { color: #66d9ef }
+/* KeywordDeclaration */ blockquote .chroma .kd { color: #66d9ef }
+/* KeywordNamespace */ blockquote .chroma .kn { color: #f92672 }
+/* KeywordPseudo */ blockquote .chroma .kp { color: #66d9ef }
+/* KeywordReserved */ blockquote .chroma .kr { color: #66d9ef }
+/* KeywordType */ blockquote .chroma .kt { color: #66d9ef }
+/* Name */ blockquote .chroma .n { color: #eee }
+/* NameAttribute */ blockquote .chroma .na { color: #a6e22e }
+/* NameBuiltin */ blockquote .chroma .nb { color: #eee }
+/* NameClass */ blockquote .chroma .nc { color: #a6e22e }
+/* NameConstant */ blockquote .chroma .no { color: #66d9ef }
+/* NameDecorator */ blockquote .chroma .nd { color: #a6e22e }
+/* NameException */ blockquote .chroma .ne { color: #a6e22e }
+/* NameFunction */ blockquote .chroma .nf { color: #a6e22e }
+/* NameOther */ blockquote .chroma .nx { color: #a6e22e }
+/* NameTag */ blockquote .chroma .nt { color: #f92672 }
+/* Literal */ blockquote .chroma .l { color: #ae81ff }
+/* LiteralDate */ blockquote .chroma .ld { color: #e6db74 }
+/* LiteralString */ blockquote .chroma .s { color: #e6db74 }
+/* LiteralStringAffix */ blockquote .chroma .sa { color: #e6db74 }
+/* LiteralStringBacktick */ blockquote .chroma .sb { color: #e6db74 }
+/* LiteralStringChar */ blockquote .chroma .sc { color: #e6db74 }
+/* LiteralStringDelimiter */ blockquote .chroma .dl { color: #e6db74 }
+/* LiteralStringDoc */ blockquote .chroma .sd { color: #e6db74 }
+/* LiteralStringDouble */ blockquote .chroma .s2 { color: #e6db74 }
+/* LiteralStringEscape */ blockquote .chroma .se { color: #ae81ff }
+/* LiteralStringHeredoc */ blockquote .chroma .sh { color: #e6db74 }
+/* LiteralStringInterpol */ blockquote .chroma .si { color: #e6db74 }
+/* LiteralStringOther */ blockquote .chroma .sx { color: #e6db74 }
+/* LiteralStringRegex */ blockquote .chroma .sr { color: #e6db74 }
+/* LiteralStringSingle */ blockquote .chroma .s1 { color: #e6db74 }
+/* LiteralStringSymbol */ blockquote .chroma .ss { color: #e6db74 }
+/* LiteralNumber */ blockquote .chroma .m { color: #ae81ff }
+/* LiteralNumberBin */ blockquote .chroma .mb { color: #ae81ff }
+/* LiteralNumberFloat */ blockquote .chroma .mf { color: #ae81ff }
+/* LiteralNumberHex */ blockquote .chroma .mh { color: #ae81ff }
+/* LiteralNumberInteger */ blockquote .chroma .mi { color: #ae81ff }
+/* LiteralNumberIntegerLong */ blockquote .chroma .il { color: #ae81ff }
+/* LiteralNumberOct */ blockquote .chroma .mo { color: #ae81ff }
+/* Operator */ blockquote .chroma .o { color: #f92672 }
+/* OperatorWord */ blockquote .chroma .ow { color: #f92672 }
+/* Comment */ blockquote .chroma .c { color: #75715e }
+/* CommentHashbang */ blockquote .chroma .ch { color: #75715e }
+/* CommentMultiline */ blockquote .chroma .cm { color: #75715e }
+/* CommentSingle */ blockquote .chroma .c1 { color: #75715e }
+/* CommentSpecial */ blockquote .chroma .cs { color: #75715e }
+/* CommentPreproc */ blockquote .chroma .cp { color: #75715e }
+/* CommentPreprocFile */ blockquote .chroma .cpf { color: #75715e }
+/* GenericDeleted */ blockquote .chroma .gd { color: #f92672 }
+/* GenericEmph */ blockquote .chroma .ge { font-style: italic }
+/* GenericInserted */ blockquote .chroma .gi { color: #a6e22e }
+/* GenericStrong */ blockquote .chroma .gs { font-weight: bold }
+/* GenericSubheading */ blockquote .chroma .gu { color: #75715e }
+/* Punctuation */ blockquote .chroma .p { color: #eee }

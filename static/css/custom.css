@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
-@import url('syntax.css');
+@import url('syntax-light.css');
+@import url('syntax-dark.css');
 
 * {
   font-family: 'Ubuntu', sans-serif !important;
@@ -25,6 +26,10 @@ img {
 
 blockquote {
   padding-left: 8px;
+  background-color:#ccc;
+  padding:5px;
+  border-radius:5px;
+  border-style: hidden hidden hidden solid;
 }
 
 p, ul {
@@ -55,13 +60,6 @@ pre {
 code, pre code * {
   font-family: 'Fira Code', monospace !important;
   font-style: normal;
-}
-
-blockquote {
-  background-color:#ccc;
-  padding:5px;
-  border-radius:5px;
-  border-style: hidden hidden hidden solid;
 }
 
 blockquote p {
