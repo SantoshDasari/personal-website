@@ -36,6 +36,14 @@ p, ul {
   color: #c8d7e6;
 }
 
+.post-single-content p a {
+  color: #79f2a3;
+}
+
+.post-single-content p a:hover {
+  color: #46b06a;
+}
+
 table, th, td {
   border: 1px solid #c8d7e6;
   border-collapse: collapse;
