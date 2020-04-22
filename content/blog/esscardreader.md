@@ -30,4 +30,4 @@ The main program was written in Python, and uses OAuth2 for securely connecting 
 
 ![](https://ratik.me/images/cardReaderBreadboard.jpg "Testing program with hardware on breadboard and custom designed card")
 
-{{< center >}Testing program with hardware on breadboard and custom designed card{{< /center >}
+{{< center >}}Testing program with hardware on breadboard and custom designed card{{< /center >}
