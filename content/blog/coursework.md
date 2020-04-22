@@ -36,59 +36,62 @@ Here is an excerpt from our worksheet:
 > **Applying DFT and FFT to a sum of sinusoids**
 >
 > Let’s define our input signal, **_x_**
->
->     x = sin(20*2*pi()*t)+sin(30*2*pi()*t)+sin(60*2*pi()*t);
+>``` matlab
+> x = sin(20*2*pi()*t)+sin(30*2*pi()*t)+sin(60*2*pi()*t);
+>```
 >
 > Let’s now plot a stem graph of **_x_** to see what our signal looks like
->
->     stem(x)
->
+>{{< highlight matlab>}}stem(x){{< /highlight >}}
 > ![](https://ratik.me/images/enel327graph1.png)
 >
 > The signal is a little crowded since we are using a lot of points. However, if you zoom in on a period you can see it has been reproduced fairly well. Let’s now use our Matlab script that will allow us to take the DFT of this signal.
->
->     Y = dft(x)
+>{{< highlight matlab>}}Y = dft(x){{< /highlight >}}
 >
 > Next, let’s compute the two-sided spectrum on the transform, **_Y_**, and then compute the single-sided spectrum from it, similar to Worksheet 11.
->
->     P2 = abs(Y/L);
->     P1 = P2(1:L/2+1);
->     P1(2:end-1) = 2*P1(2:end-1);
+>``` matlab
+> P2 = abs(Y/L);
+> P1 = P2(1:L/2+1);
+> P1(2:end-1) = 2*P1(2:end-1);
+>```
 >
 > Next, we will define our frequency domain and plot the amplitude spectrum of our signal.
->
->     f = Fs*(0:(L/2))/L;
->     stem(f,P1) 
->     title('Single-Sided Amplitude Spectrum of X(t)')
->     xlabel('f (Hz)')
->     ylabel('|P1(f)|')
+>``` matlab
+> f = Fs*(0:(L/2))/L;
+> stem(f,P1)
+> title('Single-Sided Amplitude Spectrum of X(t)')
+> xlabel('f (Hz)')
+> ylabel('|P1(f)|')
+>```
 >
 > ![](https://ratik.me/images/enel327graph2.png)
 >
 > We can clearly see spikes in our spectrum at 20, 30, and 60Hz!
 >
 > Now, let us change our program to use Matlab’s in-built FFT function and compare the results.
->
->     Y = fft(X);
->     % Y = dft(X);
+>``` matlab
+> Y = fft(X);
+> % Y = dft(X);
+>```
 >
 > ![](https://ratik.me/images/enel327graph3.png)
 >
 > With the exception of slightly reduced noise, we have identical graphs that peak at 20, 30, and 60Hz! As a thought experiment, think about why there is reduced noise in this graph.
 >
 > Now, let’s time the two functions using the **_tic_** and **_toc_** stopwatch timer built into Matlab. This can be done by simply wrapping the transform section of our code as such:
->
->     tic;
->     % Y = fft(X);
->     Y = dft(X);
->     toc;
+>``` matlab
+> tic;
+> % Y = fft(X);
+> Y = dft(X);
+> toc;
+>```
 >
 > Let’s run our script using **_fft()_** and **_dft()_** separately and compare our time. You should get results similar to this:
->
->     >> FFT_Worksheet
->     	Elapsed time is 0.000174 seconds.
->     >> FFT_Worksheet
->     	Elapsed time is 0.030244 seconds.
+>``` matlab
+> >> FFT_Worksheet
+> Elapsed time is 0.000174 seconds.
+> >> FFT_Worksheet
+> Elapsed time is 0.030244 seconds.
+>```
 >
 > Where the FFT function is considerably faster than the DFT function. Now try using these methods on a much larger signal and observe the time difference.
 >
