@@ -12,6 +12,8 @@ The device is powered by a Raspberry Pi Zero W, which is running a custom Linux 
 
 ![](https://ratik.me/images/buildroot.png "Linux Kernel Config for Raspberry Pi Zero W")
 
+{{< center >}}Linux Kernel Config for Raspberry Pi Zero W{{< /center >}}
+
 On top of that, I have an RFID module, an LCD display, and buttons connected to the Raspberry Pi pins. I also designed the circuit board used in the project. This was done in started in CircuitMaker but I eventually finished the board in Altium:
 
 ![](https://ratik.me/images/cardReaderCircuitDesign.jpg "Designing the PCB to house all components")
