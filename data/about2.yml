@@ -2,7 +2,7 @@ enable : true
 image : images/about/about-business-man.jpg
 title : Nice to meet you, I'm Ratik
 description : I'm an electrical engineering student at the Schulich School of Engineering who is passionate about using technology to inspire change in the world around me. I love all things related to computers, especially microcontrollers, networking, and computer hardware. Experienced in C, C++, Python, HTML, and CSS with current projects being used in the Engineering Students' Society at the University of Calgary.
-description2 : Fluent in bash scripting with experience in embedded OS and kernel development and interest in IoT devices. Minoring in Computer Engineering with an upcoming focus in artificial intelligence, machine learning, and networking.
+description2 : Fluent in bash scripting with experience in embedded OS and kernel development with an interest in IoT devices. Minoring in Computer Engineering with an upcoming focus in artificial intelligence, machine learning, and networking.
 
 aboutItem :
   # - icon : tf-circle-compass
