@@ -3,7 +3,7 @@ author = "Ratik Kapoor"
 date = 2020-04-20T06:00:00Z
 description = "The development of our plant monitoring device for our engineering professional skills course."
 image = "/images/plantpod.jpg"
-title = "PlantPod"
+title = "PlantPod2"
 
 +++
 As part of our ENEL300, Engineering Professional Skills, course, our group created a device called PlantPod. The initial goal of this device was to help busy working professionals remember to water their plants by playing a customizable tone when PlantPod detects soil moisture is too low. However, we found similar devices that were slightly cheaper than our design and provided a bit more functionality. 
